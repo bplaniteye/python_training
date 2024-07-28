@@ -1,0 +1,91 @@
+Raw string
+Garbage collector
+Affectation simple
+Affectation parallèle
+Affectation multiple
+
+Python fortement typé
+JavaScript faiblement typé
+Python dynamique
+C++ statique
+
+FONCTIONS CHAINES DE CARATCTERS
+Modification de la casse
+    upper()
+    lower()
+    capitalize()
+    title()
+Remplacer des éléments à l'intérieur d'une chaîne de caractères
+    replace()
+    strip()
+    rstrip()
+    lstrip()
+Séparer et joindre
+    split()
+    join()
+Remplir de zéros
+    zfill()
+Les méthodes is
+    isdigit()
+    islower()
+Compter les occurrences
+    count()
+Trouver une chaîne
+    find
+    rfind
+    index
+Chercher au début et à la fin d'une chaîne
+    startswith()
+    endswith()
+Formatage
+    f-string (à partir de python 3.6)
+        * prenom = "Paul"
+        f"Bonjour {prenom} !"
+        * a,b = 5,10
+        f"La multiplication de {a} fois {b} est égale à {a*b}"
+    Méthode Formatage
+        *age = 26
+        phrase = f"J'ai {} ans".format(age)
+        *prenom = "Pierre"
+        age = 26
+        phrase = f"Je m'appelle {}. J'ai {} ans".format(prenom , age)
+
+STRUCYUIRES CNDITIONNELLES
+    Opétateurs ternaires
+        age = 20
+        majeur = True if age >=18 else False
+    Opérateurs logiques
+        and
+        or
+        not
+MODULES
+    random
+        randint
+        uniform
+        randrange
+    os : créer et supprimer des dossiers
+    * Obtenir de l'aide : help et dir
+        print(dir(random))
+        help(random.randint)
+LES LISTES
+    liste et tuple
+    liste.append(1)
+    liste.extend([1,2,3,4,5])
+    liste.remove(5)
+
+    liste.index("Max)
+    liste.count("Max")
+    liste.sort() : cette méthode ne retourne rien mais trie directement la liste
+    sorted_liste = sorted(liste)
+    liste.reverse()
+
+    liste.pop(0)
+    liste.clear()
+
+    " ".join(liste) : retourne une chaîne de caractères
+    liste = char.split()
+
+    Opérateurs d'appartenance
+        in
+        not in
+    
