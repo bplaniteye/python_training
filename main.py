@@ -14,9 +14,3 @@ while continuer == "o":
         break
     
 
-
-# if continuer != "o" and continuer != "n" :
-#     print("Saisissez une valeur correcte ")
-#     continuer = input("Voulez-vous continuer ? o/n ")
-# elif continuer == "n" :
-# break
